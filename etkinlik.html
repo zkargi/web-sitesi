@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Kartları Yerleştirme</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+            .kart {
+                margin-bottom: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .kart img {
+                width: 255px;
+                height: 255px;
+                border: 5px solid #ddd;
+                border-radius: 4px;
+            }
+            body{
+              background-image:url('bursa2.jpg');
+            }
+            h1{
+          color:rgb(104, 78, 45);
+          
+            }
+            .background-image{
+                opacity: 0.5;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">Ana Sayfa</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a id="myLink" class="nav-link" href="etkinlik.html">Etkinlikler <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Duyurular
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeri.html">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="iletisim.html">İletişim</a>
+              </li>
+              
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" href="kayit.html">Giriş</button>
+            </form>
+          </div>
+        </nav>
+
+
+
+<body>
+    <div class="container">
+      <div class="center">
+        <h1>Etkinlikler</h1>
+    </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="kart card">
+                    <img src="img/p1.jpg" alt="Resim 1" onclick="p1()">
+                    <div class="card-body">
+                        <h5 class="card-title">Karagöz Hacivat</h5>
+                        <p class="card-text" >Tiyatro 22.12.2023 - 30.06.2024 Tayyare Kültür Merkezi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="kart card">
+                    <img src="img/p3.jpg" alt="Resim 1" onclick="p3()">
+                    <div class="card-body">
+                        <h5 class="card-title">“Cumhuriyetin 100 Yıllık Endüstriyel Mirası; Birlikte Yüzyıl Bursa” Sergisi</h5>
+                        <p class="card-text">15.02.2024 - 15.05.2024 Merinos Tekstil Sanayi Müzesi
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="kart card">
+                    <img src="img/p4.jpg" alt="Resim 1" onclick="p4()">
+                    <div class="card-body">
+                        <h5 class="card-title">Üç Kız Kardeş</h5>
+                        <p class="card-text">Tiyatro 30.06.2024 - 16.11.2024 Tayyare Kültür Merkezi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="kart card">
+                    <img src="img/p5.jpg" alt="Resim 1" onclick="p5()">
+                    <div class="card-body">
+                        <h5 class="card-title">BURSA'DA RAMAZAN</h5>
+                        <p class="card-text"> 08.03.2024 - 09.04.2024 Bursa
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="kart card">
+                    <img src="img/p7.jpg" alt="Resim 1" onclick="p7()">
+                    <div class="card-body">
+                        <h5 class="card-title">‘Besmele-i Şerif’ Sergisi</h5>
+                        <p class="card-text"> 19.03.2024 - 12.04.2024 Muradiye El Yazmaları ve Müzesi
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="kart card">
+                    <img src="img/p8.jpg" alt="Resim 1" onclick="p8()">
+                    <div class="card-body">
+                        <h5 class="card-title">KIRMIZI DUVAR (Çocuk Oyunu)</h5>
+                        <p class="card-text"> 08.11.2023 - 31.05.2024 Tayyare Kültür Merkezi
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="kart card">
+                    <img src="img/p9.jpg" alt="Resim 1" onclick="p9()">
+                    <div class="card-body">
+                        <h5 class="card-title">Papağan Kaçtı</h5>
+                        <p class="card-text">15.09.2023 - 30.06.2024 Tayyare Kültür Merkezi
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="kart card">
+                    <img src="img/p10.jpg" alt="Resim 1" onclick="p10()">
+                    <div class="card-body">
+                        <h5 class="card-title">''ÇİÇEKLERİN DÜĞÜNÜ'' İPEK İĞNE OYASI SERGİSİ</h5>
+                        <p class="card-text"> 11.04.2023 - 04.05.2024 Merinos Tekstil Sanayi Müzesi
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="script.js"></script>

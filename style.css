@@ -1,0 +1,80 @@
+#myLink{
+    color:red;
+}
+
+img{
+    height: 500px;
+    border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.center {
+  text-align: center;
+}
+
+#carouselExampleControls{
+    width: 800px;
+    margin: 0 auto;
+    border: 10px solid #ddd;
+    border-radius: 4px;
+}
+
+.jumbotron{
+    text-align: center;
+    margin-top: 20px;
+}
+.card{
+    margin-top: 5px;
+    height: 50px;
+    width: 5px;
+    border: 10px solid #ddd;
+    border-radius: 10px;
+    
+}
+
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-thumbnail{
+    height: 300px;
+    float:left;
+}
+
+body {
+    padding-top: 20px;
+  }
+  
+.card-group {
+    margin: 0 -15px;
+  }
+  
+.card-group .card {
+    margin: 0 0 1rem;
+  }
+  
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .card-group .card {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+    }
+  }
+  
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    .card-group .card {
+      -ms-flex: 0 0 33.3333%;
+      flex: 0 0 33.333333%;
+    }
+  }
+  
+  @media (min-width: 992px)
+  {
+    .card-group .card {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+    }
+  }
+  
